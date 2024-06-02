@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter/widgets.dart';
 import 'package:otp_form_ui/otp/main_page.dart';
 
 import 'field_input.dart';
