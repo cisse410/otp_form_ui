@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'home_page.dart';
+import 'package:otp_form_ui/otp/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,10 +32,9 @@ class MyApp extends StatelessWidget {
                 )),
             focusedBorder: OutlineInputBorder(
                 borderSide: BorderSide(color: Colors.teal),
-                borderRadius: BorderRadius.all(Radius.circular(12.0))),
-            hintStyle: TextStyle(color: Colors.grey, fontSize: 14)),
+                borderRadius: BorderRadius.all(Radius.circular(12.0))),),
       ),
-      home: const HomePage(),
+      home: const Home(),
     );
   }
 }
